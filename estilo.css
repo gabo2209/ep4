@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #00aaff;
+    font-family: Arial, sans-serif;
+}
+
+/*Ejercicio 1*/
+#script1{
+    margin: 50px;
+    text-align: center;
+}
+
+
+/*Ejercicio 2*/
+.contenedor{
+    display: flex;
+}
+#mostrar{
+    display: flex;
+}
+.ingresar-contenedor label{
+    color: white;
+    margin-bottom: 5px;
+}
+.ingresar-contenedor input{
+    width: 120px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 2px;
+    margin-right: 100px;
+}
+.ingresar-contenedor button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+.salida-contenedor{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
+.salida-contenedor ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px;
+}
+.salida-contenedor ul li{
+    padding: 5px;
+    border-bottom: 1px;
+}
+
+
+
+/*Ejercicio 3*/
+.contenedor2{
+    background-color: #fff;
+    padding: 50px;
+}
+h2{
+    margin-bottom: 20px;
+}
+.boton-contenedor2{
+    margin-bottom: 20px;
+}
+.boton-contenedor2 button{
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+.boton-contenedor2 button:hover{
+    background-color: #0056b3;
+}
+#lista2 li {
+    padding: 5px;
+    border-bottom: 1px ;
+}

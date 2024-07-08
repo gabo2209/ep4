@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="estil.css">
+</head>
+<body>
+    <script id="script1">
+            n1=parseInt(prompt("Ingrese el número 1"));
+            n2=parseInt(prompt("Ingrese el número 2"));
+
+            n = n1;
+
+            do {
+                if (n%2!==0) {
+                    document.write(`El cubo de ${n} es: ${n*n*n}<br>`);
+                }
+                n++;
+            } while (n<=n2);
+
+    </script>
+</body>
+</html>
